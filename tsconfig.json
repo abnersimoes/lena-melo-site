@@ -7,6 +7,7 @@
     "lib": ["es2017", "dom"],
     "strict": true,
     "esModuleInterop": false,
+    "typeRoots": ["./src/@types", "./node_modules/@types"],
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "importHelpers": true,
@@ -16,5 +17,6 @@
     "rootDir": "./",
     "incremental": true
   },
-  "include": ["**/*.ts"]
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
 }

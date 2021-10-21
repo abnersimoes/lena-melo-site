@@ -4,7 +4,8 @@ import 'ds-lena-melo/dist/src/Heading/ds-heading';
 import 'ds-lena-melo/dist/src/Icon/ds-icon';
 import 'ds-lena-melo/dist/src/Paragraph/ds-paragraph';
 
-import './components/Header/header-component';
-import './components/Footer/footer-component';
+import './components/header/header-component';
+import './components/footer/footer-component';
+import './components/container/container-component';
 
 import './router';

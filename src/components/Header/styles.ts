@@ -4,4 +4,16 @@ export default css`
   :host {
     display: flex;
   }
+
+  header {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    max-width: 17.5rem;
+  }
 `;

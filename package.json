@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@vaadin/router": "^1.7.4",
-    "ds-lena-melo": "^0.0.11",
+    "ds-lena-melo": "^0.0.12",
     "lit": "^2.0.2"
   },
   "devDependencies": {
@@ -59,9 +59,8 @@
     ],
     "rules": {
       "no-unused-vars": "off",
-      "@typescript-eslint/no-unused-vars": [
-        "error"
-      ],
+      "no-shadow": "off",
+      "@typescript-eslint/no-unused-vars": "error",
       "import/no-unresolved": "off",
       "import/extensions": "off"
     }

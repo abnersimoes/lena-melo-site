@@ -2,7 +2,7 @@ import { LitElement, html } from 'lit';
 import { property } from 'lit/decorators.js';
 import styles from './styles';
 
-const logo = new URL('../../../../assets/open-wc-logo.svg', import.meta.url)
+const logo = new URL('../../../../assets/logo-horizontal.svg', import.meta.url)
   .href;
 
 export class HeaderComponent extends LitElement {
@@ -13,15 +13,21 @@ export class HeaderComponent extends LitElement {
   render() {
     return html`
       <header>
-        <div>
-          <img src=${logo} alt="logo" />
-        </div>
+        <container-component
+          justify-content="space-between"
+          align-items="center"
+        >
+          <div class="logo">
+            <img src=${logo} alt="logo" />
+          </div>
 
-        <nav>
-          <a href="/">Home</a>
-          <a href="/politica-de-privacidade">Política de privacidade</a>
-          <a href="/a-bu-ble">Qualquer coisa</a>
-        </nav>
+          <nav>
+            <ds-button outline>Política de privacidade</ds-button>
+            <!-- <a href="/">Home</a>
+            <a href="/politica-de-privacidade">Política de privacidade</a>
+            <a href="/a-bu-ble">Qualquer coisa</a> -->
+          </nav>
+        </container-component>
       </header>
     `;
   }

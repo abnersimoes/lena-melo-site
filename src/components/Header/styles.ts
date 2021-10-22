@@ -15,6 +15,11 @@ export default css`
 
   .logo {
     max-width: 17.5rem;
+    display: flex;
+  }
+
+  .logo h1 {
+    visibility: hidden;
   }
 
   nav {

@@ -20,6 +20,7 @@ export class HeaderComponent extends LitElement {
         >
           <a href=${home.path} title="Página inicial" class="logo">
             <img src=${logo} alt="logo" />
+            <h1>Lena Melo - Costureira</h1>
           </a>
 
           <nav>

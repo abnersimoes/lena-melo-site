@@ -1,6 +1,7 @@
 import { LitElement, html } from 'lit';
 import { property } from 'lit/decorators.js';
 import styles from './styles';
+import { home, privacyPolicy } from '../../constants/routes';
 
 const logo = new URL('../../../../assets/logo-horizontal.svg', import.meta.url)
   .href;
@@ -17,15 +18,15 @@ export class HeaderComponent extends LitElement {
           justify-content="space-between"
           align-items="center"
         >
-          <div class="logo">
+          <a href=${home.path} title="Página inicial" class="logo">
             <img src=${logo} alt="logo" />
-          </div>
+          </a>
 
           <nav>
-            <ds-button outline>Política de privacidade</ds-button>
-            <!-- <a href="/">Home</a>
-            <a href="/politica-de-privacidade">Política de privacidade</a>
-            <a href="/a-bu-ble">Qualquer coisa</a> -->
+            <ds-button-link to=${privacyPolicy.path} size="small">
+              Política de privacidade
+            </ds-button-link>
+            <ds-button raised>Baixar App</ds-button>
           </nav>
         </container-component>
       </header>

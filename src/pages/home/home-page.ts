@@ -1,4 +1,4 @@
 import { HomePage } from '.';
-import { routes } from '../../constants/routes';
+import { home } from '../../constants/routes';
 
-customElements.define(routes.home, HomePage);
+customElements.define(home.component, HomePage);

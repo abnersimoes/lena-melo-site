@@ -16,4 +16,13 @@ export default css`
   .logo {
     max-width: 17.5rem;
   }
+
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  nav ds-button-link {
+    margin-right: var(--spacing-outset-xs);
+  }
 `;

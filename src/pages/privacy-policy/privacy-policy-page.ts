@@ -1,4 +1,4 @@
 import { PrivacyPolicyPage } from '.';
-import { routes } from '../../constants/routes';
+import { privacyPolicy } from '../../constants/routes';
 
-customElements.define(routes.privacyPolicy, PrivacyPolicyPage);
+customElements.define(privacyPolicy.component, PrivacyPolicyPage);

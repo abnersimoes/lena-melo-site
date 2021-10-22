@@ -14,11 +14,19 @@
       href="./node_modules/lena-melo-design-tokens/build/css/styles.css"
     />
     <style>
+      html,
+      body {
+        height: 100%;
+      }
+
       body {
         font-family: var(--asset-font-regular-name), Arial, sans-serif;
         font-weight: var(--asset-font-regular-weight);
         color: var(--color-neutral-low-medium);
         background-color: var(--color-neutral-high-light);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
       }
     </style>
     <title>Guia de tecidos da Lena Melo</title>

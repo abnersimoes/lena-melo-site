@@ -1,4 +1,4 @@
 import { NotFoundPage } from '.';
-import { routes } from '../../constants/routes';
+import { notFound } from '../../constants/routes';
 
-customElements.define(routes.notFound, NotFoundPage);
+customElements.define(notFound.component, NotFoundPage);

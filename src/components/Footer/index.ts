@@ -7,9 +7,11 @@ export class FooterComponent extends LitElement {
   render() {
     return html`
       <footer>
-        <ds-paragraph size="small">
-          © 2021, Desenvolvido por Abner Simões
-        </ds-paragraph>
+        <container-component justify-content="flex-end" align-items="center">
+          <ds-paragraph size="small">
+            © 2021, Desenvolvido por Abner Simões
+          </ds-paragraph>
+        </container-component>
       </footer>
     `;
   }

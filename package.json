@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@vaadin/router": "^1.7.4",
-    "ds-lena-melo": "^0.0.12",
+    "ds-lena-melo": "^0.0.13",
     "lit": "^2.0.2"
   },
   "devDependencies": {

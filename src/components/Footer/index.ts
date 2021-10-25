@@ -7,7 +7,7 @@ export class FooterComponent extends LitElement {
   render() {
     return html`
       <footer>
-        <container-component justify-content="flex-end" align-items="center">
+        <container-component justifyContent="flex-end" alignItems="center">
           <ds-paragraph size="small">
             © 2021, Desenvolvido por Abner Simões
           </ds-paragraph>

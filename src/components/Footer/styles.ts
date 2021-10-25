@@ -7,7 +7,7 @@ export default css`
 
   footer {
     width: 100%;
-    height: 10rem;
+    height: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;

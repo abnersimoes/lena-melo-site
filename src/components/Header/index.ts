@@ -14,10 +14,7 @@ export class HeaderComponent extends LitElement {
   render() {
     return html`
       <header>
-        <container-component
-          justify-content="space-between"
-          align-items="center"
-        >
+        <container-component justifyContent="space-between" alignItems="center">
           <a href=${home.path} title="Página inicial" class="logo">
             <img src=${logo} alt="logo" />
             <h1>Lena Melo - Costureira</h1>

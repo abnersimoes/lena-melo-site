@@ -1,5 +1,5 @@
 import { LitElement, html } from 'lit';
-import { linkPlayStore, linkAppStore } from '../../constants/external-links';
+import { playStore, appStore } from '../../constants/external-links';
 import styles from './styles';
 
 const buttonPlayStore = new URL(
@@ -18,18 +18,14 @@ export class NavStore extends LitElement {
   render() {
     return html`
       <nav>
-        <a
-          href=${linkPlayStore}
-          title="Baixar app na Play Store"
-          target="_blank"
-        >
+        <a href=${playStore} title="Baixar app na Play Store" target="_blank">
           <img
             src=${buttonPlayStore}
             alt="Botão de download do app na Play Store"
           />
         </a>
 
-        <a href=${linkAppStore} title="Baixar app na App Store" target="_blank">
+        <a href=${appStore} title="Baixar app na App Store" target="_blank">
           <img
             src=${buttonAppStore}
             alt="Botão de download do app na App Store"

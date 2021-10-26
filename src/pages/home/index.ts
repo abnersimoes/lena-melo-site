@@ -2,8 +2,8 @@ import { LitElement, html } from 'lit';
 import '../../components/nav-store/nav-store';
 import styles from './styles';
 
-const devicesImage = new URL(
-  '../../../../assets/devices-app.png',
+const devicesImage2x = new URL(
+  '../../../../assets/devices-app@2x.png',
   import.meta.url
 ).href;
 
@@ -13,23 +13,23 @@ export class HomePage extends LitElement {
   render() {
     return html`
       <container-component alignItems="center">
-        <article class="content">
+        <article class="content info">
           <ds-heading priority="2" size="large">Guia de tecidos</ds-heading>
 
-          <ds-paragraph
+          <ds-paragraph size="large"
             >Deseja confeccionar uma roupa mas não sabe quais os tecidos mais
             indicados nem quantos metros comprar?</ds-paragraph
           >
-          <ds-paragraph
+          <ds-paragraph size="large"
             >Baixe o app e confira indicações de tecidos de acordo o modelo da
             roupa e a ocasião que você deseja usa-la:</ds-paragraph
           >
 
           <nav-store></nav-store>
         </article>
-        <aside class="content">
+        <aside class="content image">
           <img
-            src=${devicesImage}
+            src=${devicesImage2x}
             alt="Smartphones com o aplicativo da Lena Melo costureira"
           />
         </aside>

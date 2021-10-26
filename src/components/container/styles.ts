@@ -7,7 +7,8 @@ export default css`
 
   :host > div {
     width: 100%;
-    max-width: 80rem;
+    height: 100%;
+    max-width: 72rem;
     margin-left: auto;
     margin-right: auto;
     padding-left: var(--spacing-inset-sm);

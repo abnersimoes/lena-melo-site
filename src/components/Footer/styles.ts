@@ -15,7 +15,4 @@ export default css`
     margin-bottom: 1rem;
     display: block;
   }
-
-  .footer-right {
-  }
 `;

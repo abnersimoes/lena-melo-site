@@ -13,7 +13,7 @@ export default css`
     width: 3rem;
     height: 3rem;
     fill: var(--color-primary-pure);
-    border: var(--border-width-thin) solid var(--color-primary-pure);
+    /* border: var(--border-width-thin) solid var(--color-primary-pure); */
     border-radius: var(--border-radius-circular);
     padding: var(--spacing-inset-xxs);
     margin: 0 var(--spacing-outset-xxs);

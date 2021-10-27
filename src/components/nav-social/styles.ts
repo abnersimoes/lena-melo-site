@@ -2,7 +2,7 @@ import { css } from 'lit';
 
 export default css`
   :host {
-    display: block;
+    display: flex;
   }
 
   nav {
@@ -25,5 +25,18 @@ export default css`
   a:hover {
     fill: var(--color-neutral-high-light);
     background-color: var(--color-primary-pure);
+  }
+
+  a:active {
+    background-color: var(--color-primary-dark);
+    border-color: var(--color-primary-dark);
+  }
+
+  a:first-of-type {
+    margin-left: 0;
+  }
+
+  a:last-of-type {
+    margin-right: 0;
   }
 `;

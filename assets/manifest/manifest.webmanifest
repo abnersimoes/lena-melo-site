@@ -1,0 +1,43 @@
+{
+  "theme_color": "#F3758A",
+  "background_color": "#FFF9F9",
+  "display": "fullscreen",
+  "scope": "/",
+  "start_url": "/",
+  "name": "Guia de tecidos da Lena Melo",
+  "short_name": "Guia de tecidos",
+  "description": "Confira indica\u00e7\u00f5es de tecidos de acordo o modelo da roupa e a ocasi\u00e3o de uso. Voc\u00ea tamb\u00e9m pode calcular quantos metros de tecido precisa para determinada roupa",
+  "icons": [
+    {
+      "src": "/assets/manifest/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/manifest/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/manifest/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/manifest/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.abnersimoes.lenaMelo"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/us/app/guia-de-tecidos-da-lena-melo/id1587949940"
+    }
+  ]
+}

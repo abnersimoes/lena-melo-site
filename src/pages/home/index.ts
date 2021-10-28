@@ -20,7 +20,7 @@ export class HomePage extends LitElement {
     return html`
       <container-component alignItems="center">
         <article class="content info">
-          <ds-heading priority="2" size="large">Guia de tecidos</ds-heading>
+          <ds-heading priority="2" size="large">Guia de tecidos App</ds-heading>
 
           <ds-paragraph size="large"
             >Deseja confeccionar uma roupa mas não sabe quais os tecidos mais

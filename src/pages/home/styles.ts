@@ -1,4 +1,5 @@
 import { css } from 'lit';
+import { desktop } from 'ds-lena-melo';
 
 export default css`
   .content {
@@ -9,6 +10,8 @@ export default css`
   .content.info {
     padding-bottom: var(--spacing-inset-sm);
     text-align: center;
+    max-width: 35rem;
+    margin: 0 auto;
   }
 
   .content.info nav-store {
@@ -22,13 +25,7 @@ export default css`
     margin: 0 auto;
   }
 
-  @media only screen and (min-width: 480px) {
-  }
-
-  @media only screen and (min-width: 600px) {
-  }
-
-  @media only screen and (min-width: 900px) {
+  ${desktop`
     .content {
       width: 50%;
     }
@@ -50,5 +47,5 @@ export default css`
     .content img {
       margin-right: 0;
     }
-  }
+  `}
 `;

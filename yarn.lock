@@ -2768,14 +2768,14 @@ dot-case@^3.0.4:
     no-case "^3.0.4"
     tslib "^2.0.3"
 
-ds-lena-melo@^0.0.14:
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/ds-lena-melo/-/ds-lena-melo-0.0.14.tgz#de176391d5056f0cc895ab02f887fc9099376388"
-  integrity sha512-qdRpsgxYMvKW8R95du4gYdmFHxkYGt9d4eAnhi+8XjfaKnek5HSd59HmFa9bj5V/HyR29SJUIC1yhpfFMLTiZQ==
+ds-lena-melo@^0.0.17:
+  version "0.0.17"
+  resolved "https://registry.yarnpkg.com/ds-lena-melo/-/ds-lena-melo-0.0.17.tgz#742e494f5c35d01fd38c7e14328042149ccfffaf"
+  integrity sha512-QFKrMHmUGtc4sfvPXvpbaj3mV9rvSQ4iv90Shq78EkBsribfHdD6ME+p06iCU4E/iDh37tergqeUZ4+JIWZ1RQ==
   dependencies:
     "@open-wc/dedupe-mixin" "^1.3.0"
     clsx "^1.1.1"
-    lena-melo-design-tokens "^1.0.13"
+    lena-melo-design-tokens "^1.0.17"
     lit "^2.0.2"
 
 dynamic-import-polyfill@^0.1.1:
@@ -4082,10 +4082,10 @@ koa@^2.13.0:
     type-is "^1.6.16"
     vary "^1.1.2"
 
-lena-melo-design-tokens@^1.0.13:
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/lena-melo-design-tokens/-/lena-melo-design-tokens-1.0.13.tgz#f3ddf725b1168f9f1be0df495c2ae543268ee021"
-  integrity sha512-xwGi2Eht68mPhlPD1Qni9sZcjPiJdVanlmCklbojQEEUa1dJiV9XEv+p27xkheACHqe0xX0/S9nfDMV0xw1dmQ==
+lena-melo-design-tokens@^1.0.17:
+  version "1.0.17"
+  resolved "https://registry.yarnpkg.com/lena-melo-design-tokens/-/lena-melo-design-tokens-1.0.17.tgz#83548abfaad403dd811a9ce94ac3be5ceeddd3fc"
+  integrity sha512-wfO6WbWiynq77n46dKuE9wMiXahgHygsJOhK2yq9Vv7UqeefhouBI9+RUvrz4XxfmH8tw+51FJzuhly5X8bYYw==
 
 leven@^3.1.0:
   version "3.1.0"

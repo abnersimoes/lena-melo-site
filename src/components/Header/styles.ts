@@ -1,4 +1,5 @@
 import { css } from 'lit';
+import { mobile, desktop } from 'ds-lena-melo';
 
 export default css`
   :host {
@@ -36,26 +37,26 @@ export default css`
     margin-right: var(--spacing-outset-xs);
   }
 
-  @media only screen and (min-width: 480px) {
+  ${mobile`
     header {
       padding-bottom: var(--spacing-inset-xxxl);
     }
-
+    
     .logo {
       margin-bottom: 0;
     }
-
+    
     .logo.isMobile {
       margin: 0;
     }
-
+    
     nav {
       width: auto;
       padding-top: 0;
     }
-  }
+  `}
 
-  @media only screen and (min-width: 900px) {
+  ${desktop`
     header {
       padding-bottom: var(--spacing-inset-sm);
     }
@@ -63,5 +64,5 @@ export default css`
     .logo {
       margin: 0;
     }
-  }
+  `}
 `;

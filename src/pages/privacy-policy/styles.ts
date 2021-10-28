@@ -6,6 +6,6 @@ export default css`
   }
 
   .content a {
-    color: var(--color-primary-dark);
+    color: var(--color-primary-medium);
   }
 `;

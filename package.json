@@ -10,6 +10,7 @@
     "test": "tsc && wtr --coverage",
     "test:watch": "tsc && concurrently -k -r \"tsc --watch --preserveWatchOutput\" \"wtr --watch\"",
     "build": "rimraf dist && tsc && rollup -c rollup.config.js && npm run analyze -- --exclude dist",
+    "postbuild": "cp -r dist/node_modules/lena-melo-design-tokens/build/assets/fonts dist/assets/fonts",
     "start:build": "web-dev-server --root-dir dist --app-index index.html --open",
     "analyze": "cem analyze --litelement",
     "start": "tsc && concurrently -k -r \"tsc --watch --preserveWatchOutput\" \"wds\""
@@ -31,6 +32,7 @@
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
     "@web/dev-server": "^0.1.25",
+    "@web/rollup-plugin-copy": "^0.3.0",
     "@web/rollup-plugin-html": "^1.10.1",
     "@web/rollup-plugin-import-meta-assets": "^1.0.7",
     "@web/test-runner": "next",

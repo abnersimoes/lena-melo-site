@@ -1,6 +1,7 @@
 import nodeResolve from '@rollup/plugin-node-resolve';
 import babel from '@rollup/plugin-babel';
 import html from '@web/rollup-plugin-html';
+import { copy } from '@web/rollup-plugin-copy';
 import { importMetaAssets } from '@web/rollup-plugin-import-meta-assets';
 import { terser } from 'rollup-plugin-terser';
 import { generateSW } from 'rollup-plugin-workbox';
@@ -30,6 +31,12 @@ export default {
     terser(),
     /** Bundle assets references via import.meta.url */
     importMetaAssets(),
+    copy({
+      patterns: [
+        '**/*.{svg,jpg,png}',
+        'node_modules/lena-melo-design-tokens/build/assets/fonts/*',
+      ],
+    }),
     /** Compile JS to a lower language target */
     babel({
       babelHelpers: 'bundled',

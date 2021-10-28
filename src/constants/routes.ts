@@ -10,7 +10,7 @@ export const privacyPolicy = {
 
 export const notFound = {
   path: '(.*)',
-  component: 'not-found-page',
+  redirect: home.path,
 };
 
 export default [home, privacyPolicy, notFound];

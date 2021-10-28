@@ -1,9 +1,15 @@
 import { LitElement, html } from 'lit';
 import { home, privacyPolicy } from '../../constants/routes';
+import { title } from '../../constants/SEO';
 import styles from './styles';
 
 export class PrivacyPolicyPage extends LitElement {
   static styles = styles;
+
+  requestUpdate() {
+    super.requestUpdate();
+    document.title = title.privacyPolicy;
+  }
 
   render() {
     return html`

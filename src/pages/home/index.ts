@@ -1,5 +1,6 @@
 import { LitElement, html } from 'lit';
 import '../../components/nav-store/nav-store';
+import { title } from '../../constants/SEO';
 import styles from './styles';
 
 const devicesImage2x = new URL(
@@ -9,6 +10,11 @@ const devicesImage2x = new URL(
 
 export class HomePage extends LitElement {
   static styles = styles;
+
+  requestUpdate() {
+    super.requestUpdate();
+    document.title = title.home;
+  }
 
   render() {
     return html`

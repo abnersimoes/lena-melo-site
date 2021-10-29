@@ -1,3 +1,3 @@
-import { HeaderComponent } from './index.js';
+import { HeaderComponent } from './header.js';
 
 customElements.define('header-component', HeaderComponent);

@@ -2,11 +2,12 @@ import { LitElement, html } from 'lit';
 import { property } from 'lit/decorators.js';
 import clsx from 'clsx';
 // import styles from './styles';
-import { home } from './constants/routes';
-import { playStore, appStore } from './constants/external-links';
-import { getIsMobile, getIsAndroid } from './helpers/browser';
+import { home } from '../constants/routes';
+import { playStore, appStore } from '../constants/external-links';
+import { getIsMobile, getIsAndroid } from '../helpers/browser';
 
-const logo = new URL('../../assets/logo-horizontal.svg', import.meta.url).href;
+const logo = new URL('../../../assets/logo-horizontal.svg', import.meta.url)
+  .href;
 
 export class HeaderComponent extends LitElement {
   @property({ type: String }) title = 'My app';

@@ -12,7 +12,7 @@ const buttonAppStore = new URL(
   import.meta.url
 ).href;
 
-export class NavStore extends LitElement {
+export class NavStoreComponent extends LitElement {
   static styles = styles;
 
   render() {

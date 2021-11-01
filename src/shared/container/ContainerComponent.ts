@@ -4,7 +4,7 @@ import clsx from 'clsx';
 import * as Types from '../../types';
 import styles from './styles';
 
-export class Container extends LitElement {
+export class ContainerComponent extends LitElement {
   static styles = styles;
 
   @property({ type: Number }) width = 80;

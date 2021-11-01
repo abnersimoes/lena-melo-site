@@ -1,6 +1,6 @@
 import { LitElement, svg } from 'lit';
 
-export class IconFacebook extends LitElement {
+export class IconFacebookComponent extends LitElement {
   render() {
     return svg`
       <svg width="100%" height="100%" id="fb" version="1.1" viewBox="0 0 56.693 56.693" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">

@@ -1,11 +1,11 @@
 import { LitElement, html } from 'lit';
 import { whatsapp, facebook, instagram } from '../../constants/external-links';
 import styles from './styles';
-import './icon-whatsapp/icon-whatsapp';
-import './icon-facebook/icon-facebook';
-import './icon-instagram/icon-instagram';
+import './icon-whatsapp/icon-whatsapp-component';
+import './icon-facebook/icon-facebook-component';
+import './icon-instagram/icon-instagram-component';
 
-export class NavSocial extends LitElement {
+export class NavSocialComponent extends LitElement {
   static styles = styles;
 
   render() {

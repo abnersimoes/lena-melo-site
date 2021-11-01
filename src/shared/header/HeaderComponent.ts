@@ -1,6 +1,6 @@
 import { LitElement, html } from 'lit';
 // import clsx from 'clsx';
-// import styles from './styles';
+import styles from './styles';
 // import { home } from '../../constants/routes';
 // import { playStore, appStore } from '../../constants/external-links';
 // import { getIsMobile, getIsAndroid } from '../../helpers/browser';
@@ -9,7 +9,7 @@ import { LitElement, html } from 'lit';
 //   .href;
 
 export class HeaderComponent extends LitElement {
-  // static styles = styles;
+  static styles = styles;
 
   // _redirectToStore() {
   //   const isAndroid = getIsAndroid();

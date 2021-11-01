@@ -1,13 +1,13 @@
 import { html } from 'lit';
 import { fixture, expect } from '@open-wc/testing';
-import { Container } from '..';
+import { ContainerComponent } from '../ContainerComponent';
 import '../container-component';
 
-describe('Container', () => {
-  let component: Container;
+describe('ContainerComponent', () => {
+  let component: ContainerComponent;
 
   beforeEach(async () => {
-    component = await fixture<Container>(
+    component = await fixture<ContainerComponent>(
       html`<ds-container>foo</ds-container>`
     );
   });

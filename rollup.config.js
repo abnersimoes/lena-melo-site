@@ -34,6 +34,8 @@ export default {
     copy({
       patterns: [
         '**/*.{svg,jpg,png}',
+        'robots.txt',
+        'sitemap.xml',
         'node_modules/lena-melo-design-tokens/build/assets/fonts/*',
       ],
     }),

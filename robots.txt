@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lenamelo.com.br/sitemap.xml
+Host: https://lenamelo.com.br

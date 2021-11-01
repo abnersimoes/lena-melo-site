@@ -1,2 +1,2 @@
-// import './components/header/header-component.js';
-import './components/foo/foo-bar.js';
+import './shared/header/header-component.js';
+// import './shared/foo/foo-bar.js';

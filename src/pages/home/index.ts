@@ -1,5 +1,5 @@
 import { LitElement, html } from 'lit';
-import '../../components/nav-store/nav-store';
+import '../../shared/nav-store/nav-store';
 import { title } from '../../constants/SEO';
 import styles from './styles';
 

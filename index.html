@@ -88,6 +88,23 @@
 
     <base href="/" />
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-LBF9TWZC5G"
+    ></script>
+    <script>
+      /* eslint-disable prefer-rest-params */
+      /* eslint-disable no-undef */
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-LBF9TWZC5G');
+    </script>
+
     <style>
       @import './node_modules/lena-melo-design-tokens/build/css/styles.css';
 

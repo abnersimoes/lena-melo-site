@@ -22,8 +22,6 @@ export class FooterComponent extends LitElement {
                 Política de privacidade do App
               </ds-paragraph>
             </a>
-
-            <a href="/robots.txt"> robots.txt </a>
           </div>
 
           <div class="footer-right">

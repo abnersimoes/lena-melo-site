@@ -8,9 +8,9 @@ export const privacyPolicy = {
   component: 'privacy-policy-page',
 };
 
-export const notFound = {
-  path: '(.*)',
-  redirect: home.path,
-};
+// export const notFound = {
+//   path: '(.*)',
+//   redirect: home.path,
+// };
 
-export default [home, privacyPolicy, notFound];
+export default [home, privacyPolicy];
